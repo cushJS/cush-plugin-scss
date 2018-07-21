@@ -1,4 +1,4 @@
-# cush-plugin-scss v0.0.1
+# cush-plugin-scss v0.1.0
 
 Use [node-sass][1] to transpile your `.scss` assets.
 
