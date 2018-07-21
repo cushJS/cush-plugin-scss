@@ -1,0 +1,26 @@
+{
+  "name": "cush-plugin-scss",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "description": "SCSS for cush",
+  "repository": "cushJS/cush-plugin-scss",
+  "scripts": {
+    "build": "coffee-build src -o lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "node-sass": "^4.5.3",
+    "postcss-scss": "^1.0.5"
+  },
+  "devDependencies": {
+    "coffeelint": "^2.1.0",
+    "coffeescript": "^2.3.0",
+    "wch-coffee": "*"
+  },
+  "peerDependencies": {
+    "cush": "^0.2.0"
+  }
+}
